@@ -1,5 +1,5 @@
 name: stringutils
-description: A starting point for Dart libraries or applications.
+description: A simple Dart package that provides utility functions for string manipulation such as uppercase and lowercase conversion.
 version: 1.0.0
 repository: https://github.com/umario-chi/stringutils
 
