@@ -1,13 +1,23 @@
-// TODO: Put public facing types in this file.
-
-/// String Util function.
+/// String utility function.
 class StringUtils {
-  /// The toUpperString funtion converts string to uppercase
+  /// The toUpperString funtion converts string to lowercase
+  ///
+  /// Example:
+  /// ```dart
+  /// final utils = StringUtils();
+  /// print(utils.toUpperString("hello")); // Output: HELLO
+  /// ```
   String toUpperString(String str) {
     return str.toUpperCase();
   }
 
-  /// The toUpperString funtion converts string to loweercase
+  /// The toLowerString funtion converts string to lowercase
+  ///
+  /// Example:
+  /// ```dart
+  /// final utils = StringUtils();
+  /// print(utils.toLowerString("HELLO")); // Output: hello
+  /// ```
   String toLowerString(String str) {
     return str.toLowerCase();
   }
