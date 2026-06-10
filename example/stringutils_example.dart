@@ -1,4 +1,4 @@
-import 'package:stringutils/stringutils.dart';
+import 'package:simple_string_utils/stringutils.dart';
 
 void main() {
   var utils = StringUtils();

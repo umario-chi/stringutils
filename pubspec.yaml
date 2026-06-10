@@ -1,4 +1,4 @@
-name: stringutils
+name: simple_string_utils
 description: A simple Dart package that provides utility functions for string manipulation such as uppercase and lowercase conversion.
 version: 1.0.0
 repository: https://github.com/umario-chi/stringutils
@@ -7,7 +7,7 @@ environment:
   sdk: ^3.11.5
 
 # Add regular dependencies here.
-dependencies:
+# dependencies:
   # path: ^1.9.0
 
 dev_dependencies:
