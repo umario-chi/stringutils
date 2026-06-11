@@ -1,4 +1,4 @@
-# simple_string_utils
+# umario_string_utils
 
 A simple Dart package that provides utility functions for string manipulation.
 
@@ -13,7 +13,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  simple_string_utils: ^1.0.0
+  umario_string_utils: ^1.0.0
 ```
 
 Then run:
@@ -25,7 +25,7 @@ dart pub get
 ## Usage
 
 ```dart
-import 'package:simple_string_utils/simple_string_utils.dart';
+import 'package:umario_string_utils/umario_string_utils.dart';
 
 void main() {
   final utils = StringUtils();
