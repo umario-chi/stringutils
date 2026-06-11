@@ -1,6 +1,6 @@
 /// String utility function.
 class StringUtils {
-  /// The toUpperString funtion converts string to lowercase
+  /// The toUpperString function converts a string to uppercase.
   ///
   /// Example:
   /// ```dart
@@ -11,7 +11,7 @@ class StringUtils {
     return str.toUpperCase();
   }
 
-  /// The toLowerString funtion converts string to lowercase
+  /// The toLowerString function converts a string to lowercase.
   ///
   /// Example:
   /// ```dart

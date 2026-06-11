@@ -1,16 +1,31 @@
-# StringUtils
+# simple_string_utils
 
 A simple Dart package that provides utility functions for string manipulation.
 
 ## Features
 
-- Convert string to uppercase
-- Convert string to lowercase
+- Convert a string to uppercase
+- Convert a string to lowercase
+
+## Installation
+
+Add the package to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  simple_string_utils: ^1.0.0
+```
+
+Then run:
+
+```sh
+dart pub get
+```
 
 ## Usage
 
 ```dart
-import 'package:stringutils/stringutils.dart';
+import 'package:simple_string_utils/simple_string_utils.dart';
 
 void main() {
   final utils = StringUtils();
@@ -18,3 +33,8 @@ void main() {
   print(utils.toUpperString("john")); // JOHN
   print(utils.toLowerString("JOHN")); // john
 }
+```
+
+## License
+
+This package is licensed under the [MIT License](LICENSE).

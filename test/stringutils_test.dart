@@ -1,4 +1,4 @@
-import 'package:stringutils/stringutils.dart';
+import 'package:simple_string_utils/simple_string_utils.dart';
 import 'package:test/test.dart';
 
 void main() {
